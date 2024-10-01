@@ -90,3 +90,9 @@ body{
     cursor: pointer;
     margin-top: 0.9em;
     }
+
+    :focus{
+      border: 1px solid;
+      color: hsl(75, 94%, 57%);
+      border-radius: 15px;
+    }

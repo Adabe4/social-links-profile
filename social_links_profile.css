@@ -66,14 +66,14 @@ body{
     border-radius: 100%;
   }
 
-  a:link, a:visited {
+  button:link, button:visited {
     color: white;
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
   }
 
-  a:hover {
+  button:hover {
     color: hsl(75, 94%, 57%);
   }
 
@@ -89,10 +89,11 @@ body{
     justify-content: center;
     cursor: pointer;
     margin-top: 0.9em;
+    font-weight: 600;
     }
 
     :focus{
-      border: 1px solid;
+      border: 1px solid  hsl(75, 94%, 57%);
       color: hsl(75, 94%, 57%);
       border-radius: 15px;
     }
